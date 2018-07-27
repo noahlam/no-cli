@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/cli-test.iml" filepath="$PROJECT_DIR$/.idea/cli-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/haixi-cli.iml" filepath="$PROJECT_DIR$/.idea/haixi-cli.iml" />
     </modules>
   </component>
 </project>
