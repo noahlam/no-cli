@@ -1,0 +1,28 @@
+{
+  "name": "haixi",
+  "version": "0.0.4",
+  "description": "haixi cli package",
+  "main": "index.js",
+  "bin": {
+    "haixi": "bin/index.js"
+  },
+  "files":["bin"],
+  "scripts": {},
+  "keywords": [
+    "haixi-cli"
+  ],
+  "author": "noah",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "*",
+    "commander": "*",
+    "download-git-repo": "*",
+    "fs": "*",
+    "git-clone": "*",
+    "inquirer": "*",
+    "ora": "*",
+    "path": "*",
+    "shelljs": "^*",
+    "tracer": "*"
+  }
+}
