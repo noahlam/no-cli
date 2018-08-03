@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7226eed0-a244-49a7-a1f3-f51f1b92aff9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/index.js" afterDir="false" />
+    <list default="true" id="7226eed0-a244-49a7-a1f3-f51f1b92aff9" name="Default" comment="chore: remove .idea and node_modules from git repo">
+      <change beforePath="$PROJECT_DIR$/.idea/haixi-cli.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/seek-bunzip" beforeDir="false" />
@@ -5740,7 +5740,6 @@
       <change beforePath="$PROJECT_DIR$/node_modules/yauzl/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/yauzl/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/yauzl/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -5777,13 +5776,19 @@
         <counts>
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="108" />
+          <entry key="PLAIN_TEXT" value="60" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="108" />
           <entry key="json" value="1" />
+          <entry key="txt" value="60" />
         </counts>
       </usages-collector>
     </session>
@@ -5793,8 +5798,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="531">
+              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -5919,20 +5924,35 @@
       <workItem from="1532656165562" duration="31000" />
       <workItem from="1532656198614" duration="123000" />
       <workItem from="1532659283061" duration="601000" />
-      <workItem from="1533287066082" duration="3178000" />
+      <workItem from="1533287066082" duration="3443000" />
     </task>
+    <task id="LOCAL-00001" summary="chore: remove .idea and node_modules from git repo">
+      <created>1533290472661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533290472661</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore: remove .idea and node_modules from git repo">
+      <created>1533290613814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533290613814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19578000" />
+    <option name="totallyTimeSpent" value="19843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="230" y="52" width="1560" height="1028" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22092268" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -5955,6 +5975,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: remove .idea and node_modules from git repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: remove .idea and node_modules from git repo" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/my-project/README.md" />
     <entry file="file://$PROJECT_DIR$/node_modules/shelljs/src/exec.js">
@@ -5965,7 +5989,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/shelljs/shell.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/shelljs/src/cd.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -5986,8 +6016,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="531">
+          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
         </state>
       </provider>
     </entry>
