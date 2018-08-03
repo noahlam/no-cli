@@ -1,6 +1,6 @@
 {
   "name": "haixi",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "haixi cli package",
   "main": "index.js",
   "bin": {

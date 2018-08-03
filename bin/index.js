@@ -10,7 +10,9 @@ const gitClone = require('git-clone')
 const chalk = require('chalk')
 
 
-program.parse(process.argv);
+program
+	.version('1.0.0', '-v, --version')
+	.parse(process.argv);
 
 const questions = [{
   type: 'input',
@@ -27,24 +29,29 @@ const questions = [{
 }]
 
 inquirer.prompt(questions).then((dir)=>{
-  // 初始化模板文件
   downloadTemplate(dir.name);
 })
 
 function downloadTemplate(dir){
 
+  //  判断目录是否已存在
   let isHasDir = fs.existsSync(path.resolve(dir));
   if(isHasDir){
     spinner.fail('当前目录已存在!');
     return false;
   }
-
   spinner.start(`您选择的目录是: ${chalk.red(dir)}, 数据加载中,请稍后...`);
 
+  // 克隆 模板文件
   gitClone(`http://39.107.89.91:10010/noahlam/main-frame.git`, dir , null, function(err) {
+    // 移除无用的文件
     shell.rm('-rf', `${dir}/.git`)
+	  spinner.succeed('项目初始化成功!')
+    // 运行常用命令
     shell.cd(dir)
-    shell.exec('yarn')
-    spinner.succeed('项目初始化成功!')
+	  spinner.start(`正在帮您安装依赖...`);
+    shell.exec('npm i')
+	  spinner.succeed('依赖安装成功!')
+    shell.exec('npm run dev')
   })
 }
