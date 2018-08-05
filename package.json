@@ -1,7 +1,7 @@
 {
-  "name": "haixi",
+  "name": "no-cli",
   "version": "0.0.4",
-  "description": "haixi cli package",
+  "description": "no-cli package",
   "main": "index.js",
   "bin": {
     "haixi": "bin/index.js"
@@ -9,7 +9,7 @@
   "files":["bin"],
   "scripts": {},
   "keywords": [
-    "haixi-cli"
+    "no-cli"
   ],
   "author": "noah",
   "license": "MIT",
