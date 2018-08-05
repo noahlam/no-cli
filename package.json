@@ -1,7 +1,7 @@
 {
-  "name": "no-cli",
+  "name": "ll-cli",
   "version": "0.0.4",
-  "description": "no-cli package",
+  "description": "ll-cli package",
   "main": "index.js",
   "bin": {
     "haixi": "bin/index.js"
@@ -9,7 +9,7 @@
   "files":["bin"],
   "scripts": {},
   "keywords": [
-    "no-cli"
+    "ll-cli"
   ],
   "author": "noah",
   "license": "MIT",
