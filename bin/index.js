@@ -43,8 +43,7 @@ function downloadTemplate(dir){
   spinner.start(`您选择的目录是: ${chalk.red(dir)}, 数据加载中,请稍后...`);
 
   // 克隆 模板文件
-  // gitClone(`http://39.107.89.91:10010/noahlam/main-frame.git`, dir , null, function(err) {
-  gitClone(`https://github.com/noahlam/main-frame.git`, dir , null, function(err) {
+  gitClone(`https://github.com/noahlam/vue-multi-tab.git`, dir , null, function(err) {
     // 移除无用的文件
     shell.rm('-rf', `${dir}/.git`)
 	  spinner.succeed('项目初始化成功!')
